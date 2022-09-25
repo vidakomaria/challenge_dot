@@ -1,0 +1,83 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    justify-content: center;
+}
+
+.cont-login{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    border-radius: 5px;
+    /* background-color: rgba(255, 255, 255, 0.068); */
+}
+
+.form h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid rgb(175, 175, 175); */
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.form Button{
+    width: 100%;
+    margin: auto;
+}
+
+.prev{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    /* align-items:flex-start; */
+}
+
+.sub-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cont-login h1{
+    font-size: 30px;
+    font-weight: bold;
+}
